@@ -1,14 +1,41 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Page Title</title>
-</head>
-<body>
-    <img src="boso.jpg">
-    <img src="boso.jpg">
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+    <head>
+        <script>
+            function greeting() {
+                let name=prompt("please input your name");
+                window.alert('hello' +name);
+                document.getElementById('demo').innerHTML='Hello '+name;
+            }
+            function changeToRed() {
+                document.getElementById('demo').style.color = "red";
+                document.getElementById('demo').style.fontSize = "30px";
+            }
+            function changeToDog() {
+                document.getElementById('pic').src = "boso.jpg";
+            }
+            function changeToCat() {
+                document.getElementById('pic').src = "pic_bulboff.gif";
+            }
+        </script>
+    </head>
+
+<body>
+
+
+
+    <h2>My First JavaScript</h2>
+    <img id="pic" src="boso.jpg">
+
+    <button type="button" onclick="greeting()">click greeting</button>
+    <button type="button" onclick="changeToDog()">dog</button>
+    <button type="button" onclick="changeToCat()">cat</button>
+
+    <button type="button" onclick="changeToRed()">click red</button>
+
+    <p id="demo"></p>
 
 </body>
+
 </html>
