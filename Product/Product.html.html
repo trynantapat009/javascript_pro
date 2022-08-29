@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="">
+    <title>Razer Product</title>
+    
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,600,400italic'>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.0/animate.min.css'>
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+	<!-- Demo CSS (No need to include it into your project) -->
+	<link rel="stylesheet" href="css/demo.css">
+  
+  </head>
+  <body>
+ 
+      
+ <main>
+<!-- Start DEMO HTML (Use the following code into your project)-->
+<div class="wrapper">
+
+  <header class="site-header">
+    <div class="inner-wrap">
+      <h1>RAZER</h1>
+      <ul class="list-inline">
+        
+        
+       
+      </ul>
+    </div>
+  </header>
+
+  <div class="site-toolbar">
+    <div class="inner-wrap clearfix">
+      
+    </div>
+  </div>
+
+  <div class="filter-grid">
+    <div class="inner-wrap">
+      <div class="filter-cell">
+        <select class="form-control">
+          <option value="*">Category</option>
+          <option value="fav">Favorites</option>
+        </select>
+      </div>
+      <div class="filter-cell">
+        <select class="form-control">
+          <option  value="*">Product Type</option>
+          <option value="Mouse">Mouse</option>
+          <option value="Keyboard">Keyboard</option>
+          <option value="Headphone">Headphone</option>
+          <option value="clear">clear</option>
+        </select>
+      </div>
+      
+    </div>
+  </div>
+
+  <div class="inner-wrap content-wrap">
+
+    <div class="product-grid">
+      <div class="grid-product Mouse fav">
+        <div class="img-name product1"><h4>Razer DeathAdder Essential - Black</h4></div>
+        <p class="price">฿699BATH <p>
+      </div>
+      <div class="grid-product Mouse fav">
+        <div class="img-name product2"><h4>RAZER | BASILISK X Wireless & Bluetooth Gaming Mouse</h4></div>
+        <p class="price">฿1,690BATH <p>
+      </div>
+      <div class="grid-product Mouse">
+        <div class="img-name product3"><h4>Razer Gaming Mouse Basilisk V3</h4></div>
+        <p class="price">฿2,690BATH <p>
+      </div>
+      <div class="grid-product Headphone">
+        <div class="img-name product4"><h4>Kraken V3 X Over-ear Gaming Headphone (Black)</h4></div>
+        <p class="price">฿1,690BATH <p>
+      </div>
+      <div class="grid-product Headphone">
+        <div class="img-name product5"><h4>Razer Gaming Headset Kraken V3 Hypersense</h4></div>
+        <p class="price">฿4,990BATH <p>
+      </div>
+      <div class="grid-product Keyboard">
+        <div class="img-name product6"><h4>Gaming Keyboard (Black) KB-ORNATAV3-TH2Y</h4></div>
+        <p class="price">฿2,590BATH <p>
+      </div>
+      <div class="grid-product Headphone">
+        <div class="img-name product7"><h4>HEADSET (หูฟัง) RAZER KRAKEN - MULTI-PLATFORM WIRED GAMING HEADSET - GREEN</h4></div>
+        <p class="price">฿2,290BATH <p>
+      </div>
+      <div class="grid-product Mouse fav">
+        <div class="img-name product8"><h4>RAZER | VIPER ULTIMATE Wireless Gaming Mouse with Charging Dock</h4></div>
+        <p class="price">฿4,690BATH <p>
+      </div>
+      <div class="grid-product Mouse">
+        <div class="img-name product9"><h4>RAZER เมาส์เกมมิ่งไร้สาย (สีดำ) รุ่น Viper Ultimat</h4></div>
+        <p class="price">฿4,990BATH <p>
+      </div>
+      <div class="grid-product Keyboard">
+        <div class="img-name product10"><h4>RAZER BLACKWIDOW V3 PINK RGB EN-TH *คีย์บอร์ดเกมมิ่ง</h4></div>
+        <p class="price">฿4,790 <p>
+      </div>
+      <div class="grid-product Keyboard clear">
+        
+      </div>
+      
+
+    </div>
+  </div>
+
+  <div class="sticky"></div>
+
+</div>
+
+
+<div class="cart">
+  
+  <div class="inner-wrap">
+    
+    
+    <table class="cart-table">
+      <thead>
+        <tr>
+          <th class="product-remove">Remove Items</th>
+          <th class="product-name">Product</th>
+          <th class="product-price">Price</th>
+          <th class="product-quantity">Quantity</th>
+          <th class="product-line-total">Subtotal</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr id="product-camera">
+          <td><button type="button" class="product-remove" data-id="product-camera"><i class="fa fa-times"></i></button></td>
+          <td>Camera</td>
+          <td class="product-price" data-price="3.99">3.99</td>
+          <td class="product-quantity">
+            <input type="number" pattern="\d*" step="1" min="1" max="5" value="1" data-id="product-camera">
+            <button class="plus js-number-control">
+              <i class="fa fa-plus-square"></i>
+            </button>
+            <button class="minus js-number-control">
+              <i class="fa fa-minus-square"></i>
+            </button>
+          </td>
+          <td class="product-line-total" id="product-camera-total" data-line-total="3.99">3.99</td>
+        </tr>
+      </tbody>
+    </table>
+    
+  </div>
+
+</div>
+<!-- END EDMO HTML (Happy Coding!)-->
+ </main>
+ 
+      
+  
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.0.0/isotope.pkgd.min.js'></script>
+<script  src="./js/script.js"></script>
+  
+  </body>
+</html>
